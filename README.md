@@ -32,6 +32,16 @@ The logistic Regression Model will be suitable for the design of this model as i
 3. **Its difficulty with working with interdependent featutes as most of the features used in the dataset may be interdependent**.
 Due to these boundaries, other models will also be taken into consideration
 
+
+- ### 2. K - Nearest Neighbor Method
+The K- Nearest Neighbor method is another technique that will be applied to this dataset. With the nature of this technique creating grounds for faster training, ease of implementation and irregular relationships between features( non - parametric feature felationships), it will be asuitabe method to create a model with. Few shortcomings of this tecnique, such as **handling of irrelevant features** and **lack of precision in handling Noisy Data**, will also lead to its pairing with another machine learning technique to select a suitable & efficient model
+
+
+- ### 3. K - Deision Tree Method
+
+
+
+
 ## Benefits of Prediction Model
 
 
