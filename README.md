@@ -1,8 +1,6 @@
 # CreditRisk-Cap-2024
 ## Project Overview
 
-<p align="center" >
-  <img src="data/debt-bankruptcy-symbol_98292-4514.jpg", width='60%' >
 
 In a flourishing economy, like Canada's, the maintainance of its credit system is quite important.  With the nation's residents accumulating credit worth over $2.3 trillion, nearly on par with its Gross Domestic Product (GDP) at $2 trillion, it is evident that the economy is largely driven by a credit/loan infrastructure.
 
@@ -27,4 +25,11 @@ There will be three primary machine-learning techniques that will be applied to 
 - K - Nearest Neighbor method
 - Decision Trees method
 
+- ### 1. Logistic Regression
 
+
+## Benefits of Prediction Model
+
+
+
+## Dataset Description
