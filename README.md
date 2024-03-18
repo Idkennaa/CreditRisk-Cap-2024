@@ -25,7 +25,7 @@ There will be three primary machine-learning techniques that will be applied to 
 - K - Nearest Neighbor method
 - Decision Trees method
 
-- ### 1. Logistic Regression
+ #### 1. Logistic Regression
 The logistic Regression Model will be suitable for the design of this model as it handles classification precisely, especially a bi-result classification such as this. The main problems with a Logistic regression model would be 
 1. **Its feature of creating only hard decision boundaries**, 
 2. **Its insensitivity to outliers and**  
@@ -33,17 +33,18 @@ The logistic Regression Model will be suitable for the design of this model as i
 Due to these boundaries, other models will also be taken into consideration
 
 
-- ### 2. K - Nearest Neighbor Method
+ #### 2. K - Nearest Neighbor Method
 The K- Nearest Neighbor method is another technique that will be applied to this dataset. With the nature of this technique creating grounds for faster training, ease of implementation and irregular relationships between features( non - parametric feature felationships), it will be asuitabe method to create a model with. Few shortcomings of this tecnique, such as **handling of irrelevant features** and **lack of precision in handling Noisy Data**, will also lead to its pairing with another machine learning technique to select a suitable & efficient model
 
 
-- ### 3. K - Deision Tree Method
+ #### 3.  Decision Tree Method
+ This is another Machine learning method that can be applied on this dataset for efficient results. Its interpretability and efficieny in high dimensional spaces would be reason for its selection during this analysis.
 
 
+All three methods would be primarily analysed and the most efficient method will be selected.
 
 
 ## Benefits of Prediction Model
-
-
+Leveraging machine learning and predictive modelling to assess creditworthiness and establish credit scores stands as a valuable asset for financial institutions engaged in credit product offerings. Studies indicate that implementing such models can result in a significant reduction of approximately 25% in losses associated with delinquent customers for banks. This would highly benefit these financial instutions as not only do they recuperate losses but it provides opportunity to venture into various other investment spaces witch current resources that have been saved.
 
 ## Dataset Description
