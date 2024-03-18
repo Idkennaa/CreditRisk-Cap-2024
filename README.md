@@ -19,14 +19,18 @@ The data been used is sourrced from Nubank, A prominent brazilian digital bank a
 
 ## Proposed Solution
 
-There will be three primary machine-learning techniques that will be applied to this dataset to create a model for prediction. These techniques are seen to be:
+There will be three primary machine-learning techniques that will be applied to this dataset to create a model for prediction. The deign is seen to be aclassification problem as opposed to a regression problem therefor classifciation machine learning techniques will be employed. These techniques are seen to be:
 
 - Logistic Regression method
 - K - Nearest Neighbor method
 - Decision Trees method
 
 - ### 1. Logistic Regression
-
+The logistic Regression Model will be suitable for the design of this model as it handles classification precisely, especially a bi-result classification such as this. The main problems with a Logistic regression model would be 
+1. **Its feature of creating only hard decision boundaries**, 
+2. **Its insensitivity to outliers and**  
+3. **Its difficulty with working with interdependent featutes as most of the features used in the dataset may be interdependent**.
+Due to these boundaries, other models will also be taken into consideration
 
 ## Benefits of Prediction Model
 
