@@ -48,3 +48,5 @@ All three methods would be primarily analysed and the most efficient method will
 Leveraging machine learning and predictive modelling to assess creditworthiness and establish credit scores stands as a valuable asset for financial institutions engaged in credit product offerings. Studies indicate that implementing such models can result in a significant reduction of approximately 25% in losses associated with delinquent customers for banks. This would highly benefit these financial instutions as not only do they recuperate losses but it provides opportunity to venture into various other investment spaces witch current resources that have been saved.
 
 ## Dataset Description
+
+The dataset is a sizeable amount of data having about 45,000 entries and 43 features. Credit_
