@@ -49,4 +49,14 @@ Leveraging machine learning and predictive modelling to assess creditworthiness 
 
 ## Dataset Description
 
-The dataset is a sizeable amount of data having about 45,000 entries and 43 features. Credit_
+The dataset is a sizeable amount of data having about 45,000 entries and 43 features. The data dictionary seen to explain the current features of the existing dataframe. The data was cleaned and irrelevant features were dropped to create a clean & releevant set of data to work on. Features that were dropped include :
+- Channel
+- Profile phone number
+- Target fraud
+- last amount borrowed
+- ok since
+- External data provider credit checks of last 2 years
+  
+Further Exploratory Data Analysis would be conducted on the data to create more insights.
+
+
