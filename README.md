@@ -60,3 +60,12 @@ The dataset is a sizeable amount of data having about 45,000 entries and 43 feat
 Further Exploratory Data Analysis would be conducted on the data to create more insights.
 
 
+## Model Selection and Implementation
+
+After Adequate cleaning and EDA, it was seen that the dataframe for analysis was finetuned down to about 34,000 entries.
+The model that was then applied initially was the XGBoost Classifier. This was due to its it's High performance and its regualtion techniques to prevent overfitting and proper modeling of the data. It was also combined in a pipeline together with a logistic regression. These models, after ran through a pipeline, were seen to create performance values of 0.65 and 0.62 respectively. The models were then applied individually on the cleaned data to determine the performance values as well.
+
+Due to current physical limitation of the Laptop system, being storage and space, there were some difficulties expereineced in the modelling phase. These issues will be fixed as soon as possible to deploy proper modeling to the data. After the modeling, it other modeling techniques, specifically and not limited to logistic regression and Catboost Classifier, to compare efficiency an the performance metrixes of the models used would be hypertuned to achieve as much efficiency as possible,
+
+
+
