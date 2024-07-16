@@ -61,6 +61,7 @@ Further Exploratory Data Analysis would be conducted on the data to create more 
 
 
 ## Exploratory Data Analysis
+### A. Cleaning the Data
 
 It was seen that the data had no duplicate values but only presence of null values so the null values were accounted for. The features;
 - 'Target_fraud'
