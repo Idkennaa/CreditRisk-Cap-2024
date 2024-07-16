@@ -148,7 +148,7 @@ The preliminary data analysis reveals:
 
 ## Machine Learning Model
 
-### Model Building
+### A. Model Building
 
 We then proceed to build models using the data for thorough analysis and prediction. From the feature importances shown below, we can identify the features that contribute most to the target variable.
 
@@ -162,13 +162,13 @@ We then proceed to build models using the data for thorough analysis and predict
  0.03034965, 0.02842452]
 
  
-### Feature Selection
+### B. Feature Selection
 To focus on the most impactful features, we will create a dataset that includes the top 20 features with the highest importances. This step will help streamline our analysis and improve model performance.
 
-### Addressing Class Imbalance
+### C. Addressing Class Imbalance
 To mitigate class imbalance observed in the EDA section, we employ random undersampling to achieve a balanced class distribution. Subsequently, we visually examine the distribution of the sampled data to ensure proper representation.
 
-### Model Evaluation
+### D. Model Evaluation
 We use a function designed to evaluate recall scores for different machine learning models. These scores reflect how well each model identifies all true positives of the target default variable. We'll use this function to analyze the performance of the following models:
 
 Random Forest Classifier
@@ -189,10 +189,10 @@ LogisticRegression         0.000000
 XGBClassifier              0.149473
 LGBMClassifier             0.144327
 
-### Model Selection and Optimization
+### E. Model Selection and Optimization
 After evaluating different modeling techniques to determine their performance scores, we selected the Decision Tree classifier, which achieved the highest recall score. Next, we refined its settings using grid search to find the optimal configuration.
 
-### Accuracy Assessment
+### F. Accuracy Assessment
 Given the dataset's imbalance, the metrics generated may not accurately reflect real-world performance. Therefore, it's crucial to proceed with assessing the model's accuracy as a straightforward evaluation metric.
 
 
