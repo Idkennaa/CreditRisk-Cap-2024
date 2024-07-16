@@ -69,7 +69,11 @@ It was seen that the data had no duplicate values but only presence of null valu
 - 'external_data_provider_credit_checks_last_2_year' &
 - 'ok_since'
 
-all have more than 50% of their features missing and were eventually dropped. We also see that the **'external_data_provider_credit_checks_last_2_year'** has only one value being 0. Therefore this would not impact the decisions made by the model and would provide more grounds why this feature has to be dropped. Other actions that were taken upon the data were:
+all have more than 50% of their features missing and were eventually dropped. 
+
+We also see that the **'external_data_provider_credit_checks_last_2_year'** has only one value being 0. Therefore this would not impact the decisions made by the model and would provide more grounds why this feature has to be dropped. 
+
+Other actions that were taken upon the data were:
 
 - The 'lat_lon column" feature would then be broken into latitude(lat) and longitude(lon) seperate features and the exist lat_lon feature would be dropped
 - The column 'Channel' is seen to have just one unique value and would therefore have no effect on our model so it would be dropped.
