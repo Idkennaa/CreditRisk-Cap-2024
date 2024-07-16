@@ -60,12 +60,27 @@ The dataset is a sizeable amount of data having about 45,000 entries and 43 feat
 Further Exploratory Data Analysis would be conducted on the data to create more insights.
 
 
-## Model Selection and Implementation
+## Exploratory Data Analysis
 
-After Adequate cleaning and EDA, it was seen that the dataframe for analysis was finetuned down to about 34,000 entries.
-The model that was then applied initially was the XGBoost Classifier. This was due to its it's High performance and its regualtion techniques to prevent overfitting and proper modeling of the data. It was also combined in a pipeline together with a logistic regression. These models, after ran through a pipeline, were seen to create performance values of **0.65** and **0.62** respectively. The models were then applied individually on the cleaned data to determine the performance values as well.
+It was seen that the data had no duplicate values but only presence of null values so the null values were accounted for. The features;
+- 'Target_fraud'
+- 'Last_amount_borrowed'
+- 'Last_borrowed_in_months'
+- 'external_data_provider_credit_checks_last_2_year' &
+- 'ok_since'
 
-Due to current physical limitation of the Laptop system, being storage and space, there were some difficulties expereineced in the modelling phase. These issues will be fixed as soon as possible to deploy proper modeling to the data. After the modeling, it other modeling techniques, specifically and not limited to logistic regression and Catboost Classifier, to compare efficiency an the performance metrixes of the models used would be hypertuned to achieve as much efficiency as possible.
+all have more than 50% of their features missing and were eventually dropped. We also see that the **'external_data_provider_credit_checks_last_2_year'** has only one value being 0. Therefore this would not impact the decisions made by the model and would provide more grounds why this feature has to be dropped. Other actions that were taken upon the data were:
+
+- The 'lat_lon column" feature would then be broken into latitude(lat) and longitude(lon) seperate features and the exist lat_lon feature would be dropped
+- The column 'Channel' is seen to have just one unique value and would therefore have no effect on our model so it would be dropped.
+- The columns 'Id' and 'Profile Phone number' would also have no relevance to our dataset, with phone number not providing any intrinsic value to the model and id's being a unique identifier and not providing intrisic value as well, therefore it would be dropped as well.
+-  The presnent infinite values, and the outliers, were replaced with a null value.
+- An imputer function was applied to the null values to fill  the most occuring value for the categorical columns and the median values for the numerical columns.
+
+The dataset was then concluded to be clean having a sixe of **45,000 entries and 36 features**
+
+
+
 
 
 
