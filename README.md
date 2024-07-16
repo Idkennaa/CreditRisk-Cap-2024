@@ -196,3 +196,24 @@ After evaluating different modeling techniques to determine their performance sc
 Given the dataset's imbalance, the metrics generated may not accurately reflect real-world performance. Therefore, it's crucial to proceed with assessing the model's accuracy as a straightforward evaluation metric.
 
 
+
+## Conclusion & Findings
+
+### Performance Report
+From the classification results, the following insights were derived from the model:
+
+- Class 0 (Non-Default): The model exhibited higher precision and accuracy but lower recall, indicating that while it correctly identified non-defaults most of the time, it missed some actual non-defaults.
+- Class 1 (Default): The model demonstrated lower precision but higher recall, suggesting that it more comprehensively identified defaults but also incorrectly labeled some non-defaults as defaults.
+- Macro Average: Provided equal weight to both classes.
+- Weighted Average: Considered the support (number of instances) for each class.
+The model was more accurate in predicting non-credit defaults with a score of 69%, compared to accurately predicting credit defaults with a score of 57%.
+
+### Model Selection
+Among the models tested, the Decision Tree Classifier emerged as the optimal choice based on the dataset's metrics.
+
+### Model Enhancement
+The model could have been enhanced through various adjustments such as exploring different encoding techniques, experimenting with alternative data balancing methods, and engaging in feature engineering. These steps underscored the complexity of the problem and highlighted the substantial effort required to achieve optimal performance.
+
+### Future Work
+While the initial baseline was surpassed and satisfactory results were achieved for this project, there was still considerable room for improvement. The model occasionally approved credit for individuals who may not qualify while also rejecting deserving applicants. This highlighted the ongoing challenge of achieving a more accurate and fair credit decision process.
+
