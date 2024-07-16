@@ -150,7 +150,7 @@ The preliminary data analysis reveals:
 
 ### A. Model Building
 
-We then proceed to build models using the data for thorough analysis and prediction. From the feature importances shown below, we can identify the features that contribute most to the target variable.
+We then proceed to building models using the data for thorough analysis and prediction. From the feature importances shown below, we can identify the features that contribute most to the target variable.
 
 
 [0.0290253,  0.02872985, 0.02914402, 0.02838829, 0.03196067, 0.02728252,
@@ -163,13 +163,13 @@ We then proceed to build models using the data for thorough analysis and predict
 
  
 ### B. Feature Selection
-To focus on the most impactful features, we will create a dataset that includes the top 20 features with the highest importances. This step will help streamline our analysis and improve model performance.
+To focus on the most impactful features, we created a dataset that includes the top 20 features with the highest importances. This step will help streamline our analysis and improve model performance.
 
 ### C. Addressing Class Imbalance
-To mitigate class imbalance observed in the EDA section, we employ random undersampling to achieve a balanced class distribution. Subsequently, we visually examine the distribution of the sampled data to ensure proper representation.
+To mitigate class imbalance observed in the EDA section, we employed random undersampling to achieve a balanced class distribution. Subsequently, we visually examine the distribution of the sampled data to ensure proper representation.
 
 ### D. Model Evaluation
-We use a function designed to evaluate recall scores for different machine learning models. These scores reflect how well each model identifies all true positives of the target default variable. We'll use this function to analyze the performance of the following models:
+We used a function designed to evaluate recall scores for different machine learning models. These scores reflect how well each model identifies all true positives of the target default variable. We'll use this function to analyze the performance of the following models:
 
 Random Forest Classifier
 Decision Tree Classifier
