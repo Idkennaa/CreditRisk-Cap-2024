@@ -86,6 +86,65 @@ The dataset was then concluded to be clean having a sixe of **45,000 entries and
 
 
 
+### B. Statistical Exploratory Data Analysis
+
+
+#### Data Preparation
+
+To begin with, we encoded the categorical data to ensure a suitable dataset for proper analysis. Encoding the categorical variables was a crucial step in the data exploration phase to understand the relationships between the independent variables and the dependent variable (Target_default).
+
+#### Data Exploration
+One effective way to visualize these relationships is by using a heatmap to display the correlation matrix. The correlation matrix shows the pairwise correlation coefficients between variables in the dataset. From the heatmap, we observed that the dependent variables are weakly correlated with the dependent variable.
+
+### Key Observations
+- The highest correlated variable to the dependent variable is 'facebook_profile_encoded', which is interesting compared to other independent variables.
+- Features such as 'risk_rate' and 'score_3' (one of the credit scores) have low correlation with the dependent variable, despite expectations of significant impact. Only 2 out of the 6 scores have a relative significance to the dependent variable.
+- 'Marketing Channel' has a higher impact on the dependent variables compared to other features.
+
+#### Pair Plot Analysis
+
+Key takeaways from the pair plot analysis include:
+
+- No clear or distinct relationship between most features.
+- The features appear to be categorical, which could explain the lack of apparent relationships.
+- Notable relationships are observed between risk rates and credit scores, which intuitively makes sense as higher credit scores are positively correlated with lower risk rates.
+
+#### Histogram Analysis
+Examining the histograms of the features revealed several issues:
+
+- Presence of Outliers: Notably in the 'income' and 'credit_limit' features.
+- Skewness: Observed in several features, indicating asymmetric distributions.
+- High Frequency of Zero Values: Found in certain features, reflecting the non-occurrence of specific events.
+
+These issues were addressed in subsequent analyses. The skewness of the data has been accounted for, and features with outliers and high-frequency zero values have been analyzed and will be addressed in modeling.
+
+#### Feature Relationships
+##### Credit Limit and Income
+
+To analyze relationships between key features, we examined the correlation between credit limit and income. Surprisingly, income does not significantly impact the credit limit, as higher income does not necessarily equate to a higher credit limit.
+
+##### Credit Limit and Defaulted Loans
+
+Next, we analyzed the relationship between credit limit, the number of defaulted loans, and reported income. It was observed that reported income does not significantly affect the credit limit, similar to the general income.
+
+Additionally, the number of defaulted loans has little to no effect on the credit limit. Since about 99% of the loans are defaulted, this feature will be dropped.
+
+### Conclusions from Exploratory Data Analysis
+
+The preliminary data analysis reveals:
+
+- Weak correlations between the target variable and other features.
+- Many features exhibit low correlations with the target variable.
+- An unbalanced class distribution, with almost 90% of the data in one class.
+- Some features, such as social media tags and latitude, show unexpectedly high correlations with the dependent variables.
+- Existing independent features exhibit irregularities that need to be addressed.
+- Surprisingly, certain variables appear as the most correlated ones.
+- The number of defaulted previous loans significantly influences the credit limit.
+- Higher reported and regular incomes do not necessarily lead to higher credit limits.
+- The variable "Number of issues" appears important, but its exact influence remains unclear without a deeper understanding of its definition and impact.
+
+
+
 
 
 
