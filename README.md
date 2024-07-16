@@ -148,4 +148,51 @@ The preliminary data analysis reveals:
 
 ## Machine Learning Model
 
+### Model Building
+
+We then proceed to build models using the data for thorough analysis and prediction. From the feature importances shown below, we can identify the features that contribute most to the target variable.
+
+
+[0.0290253,  0.02872985, 0.02914402, 0.02838829, 0.03196067, 0.02728252,
+ 0.0277374,  0.01034964, 0.00148517, 0.0273988,  0.02743799, 0.03106131,
+ 0.02553168, 0.01706916, 0.0302387,  0.02824109, 0.00148684, 0.03040322,
+ 0.03598842, 0.03860559, 0.02846503, 0.03730605, 0.02977799, 0.02916212,
+ 0.0190344,  0.02885388, 0.02895327, 0.0,        0.03029725, 0.01777521,
+ 0.03341823, 0.02265902, 0.02944051, 0.02635683, 0.0438085,  0.02835187,
+ 0.03034965, 0.02842452]
+
+ 
+### Feature Selection
+To focus on the most impactful features, we will create a dataset that includes the top 20 features with the highest importances. This step will help streamline our analysis and improve model performance.
+
+### Addressing Class Imbalance
+To mitigate class imbalance observed in the EDA section, we employ random undersampling to achieve a balanced class distribution. Subsequently, we visually examine the distribution of the sampled data to ensure proper representation.
+
+### Model Evaluation
+We use a function designed to evaluate recall scores for different machine learning models. These scores reflect how well each model identifies all true positives of the target default variable. We'll use this function to analyze the performance of the following models:
+
+Random Forest Classifier
+Decision Tree Classifier
+SGD Classifier
+Logistic Regression Classifier
+XGB Classifier
+LGBM Classifier
+This evaluation will provide insights into how effectively each model can correctly identify instances of the target variable, assessing their overall performance in this specific context.
+
+
+      
+RandomForestClassifier     0.096292
+DecisionTreeClassifier     0.261855
+SGDClassifier              0.000000
+SVC                        0.000000
+LogisticRegression         0.000000
+XGBClassifier              0.149473
+LGBMClassifier             0.144327
+
+### Model Selection and Optimization
+After evaluating different modeling techniques to determine their performance scores, we selected the Decision Tree classifier, which achieved the highest recall score. Next, we refined its settings using grid search to find the optimal configuration.
+
+### Accuracy Assessment
+Given the dataset's imbalance, the metrics generated may not accurately reflect real-world performance. Therefore, it's crucial to proceed with assessing the model's accuracy as a straightforward evaluation metric.
+
 
