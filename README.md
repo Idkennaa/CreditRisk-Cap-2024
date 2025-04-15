@@ -14,7 +14,7 @@ The model created would be very beneficial to financial institutions such as **b
 
 ## Subject Data
 
-The data been used is sourrced from Nubank, A prominent brazilian digital bank and one of Latin America's biggest Fintech. The dataset sourced from this company was initially part of a competition created by the company on the topic of Credit Risk analysis. This dataset encompasses 43 features for 45,000 clients. Certain data fields, including customer ID, location (state & ZIP code), and Profile Tags, are hashed out to safeguard client privacy. The relevance of these data fields to the ML Model's training will be further assessed.
+The data been used is sourced from Nubank, A prominent brazilian digital bank and one of Latin America's biggest Fintech. The dataset sourced from this company was initially part of a competition created by the company on the topic of Credit Risk analysis. This dataset encompasses 43 features for 45,000 clients. Certain data fields, including customer ID, location (state & ZIP code), and Profile Tags, are hashed out to safeguard client privacy. The relevance of these data fields to the ML Model's training will be further assessed.
 
 
 ## Proposed Solution
