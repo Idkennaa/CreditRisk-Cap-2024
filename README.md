@@ -34,7 +34,7 @@ Due to these boundaries, other models will also be taken into consideration
 
 
  #### 2. K - Nearest Neighbor Method
-The K- Nearest Neighbor method is another technique that will be applied to this dataset. With the nature of this technique creating grounds for faster training, ease of implementation and irregular relationships between features( non - parametric feature felationships), it will be asuitabe method to create a model with. Few shortcomings of this tecnique, such as **handling of irrelevant features** and **lack of precision in handling Noisy Data**, will also lead to its pairing with another machine learning technique to select a suitable & efficient model
+The K- Nearest Neighbor method is another technique that will be applied to this dataset. With the nature of this technique creating grounds for faster training, ease of implementation and irregular relationships between features( non - parametric feature felationships), it will be a suitabe method to create a model with. Few shortcomings of this technique, such as **handling of irrelevant features** and **lack of precision in handling Noisy Data**, will also lead to its pairing with another machine learning technique to select a suitable & efficient model
 
 
  #### 3.  Decision Tree Method
