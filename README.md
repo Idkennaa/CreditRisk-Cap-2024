@@ -4,7 +4,7 @@
 
 In a flourishing economy, like Canada's, the maintainance of its credit system is quite important.  With the nation's residents accumulating credit worth over $2.3 trillion, nearly on par with its Gross Domestic Product (GDP) at $2 trillion, it is evident that the economy is largely driven by a credit/loan infrastructure.
 
-The problem then arises for banks and finalncial institutions tomaintain such credit system and one of the biggest problems weakening the system is the default rates of debtors. Analysing the probability a debtor may default on their payments is quite necessary to these institutions. This project aims to create a model/models that predict a customer defaulting on their payment based on certain factors.
+The problem then arises for banks and financial institutions tomaintain such credit system and one of the biggest problems weakening the system is the default rates of debtors. Analysing the probability a debtor may default on their payments is quite necessary to these institutions. This project aims to create a model/models that predict a customer defaulting on their payment based on certain factors.
 
 The model created would be very beneficial to financial institutions such as **banks, credit unions, peer to peer lenders & numerous lending organisations**. The model is designed to minimize losses to these companies proving the accessibility to these funds. The model would also benefit such institutions through
 - Enhanced Informed Decision making
